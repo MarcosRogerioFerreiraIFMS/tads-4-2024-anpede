@@ -4,6 +4,9 @@ import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.Objects;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class Associado implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
